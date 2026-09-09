@@ -4,19 +4,19 @@
 
 <text x="72" y="72" font-family="Georgia,serif" font-size="48" font-weight="700" fill="#171717">xofleura</text> <text x="72" y="98" font-family="Arial,sans-serif" font-size="16" fill="#777777"></text>
 
-<text x="1052" y="61" text-anchor="end" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#9A9A9A">GITHUB PROFILE</text> <text x="1052" y="84" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#999999">github.com/xofleura</text>
+<text x="1052" y="61" text-anchor="end" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#9A9A9A">GitHub</text> <text x="1052" y="84" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#999999">github.com/xofleura</text>
 
 <line x1="48" y1="125" x2="1052" y2="125" stroke="#E6E6E6"/>
 <line x1="48" y1="125" x2="245" y2="125" stroke="#C49A24" stroke-width="2"/>
 
 <rect x="48" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
 <text x="72" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">FAVOURITE LANGUAGE</text>
-<text x="72" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">Zig</text>
+<text x="72" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">zig</text>
 <text x="328" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24">✦</text>
 
 <rect x="395" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
 <text x="419" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">LINUX DISTRO</text>
-<text x="419" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">Debian</text>
+<text x="419" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">debian</text>
 <text x="675" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24">◆</text>
 
 <rect x="742" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
@@ -30,6 +30,4 @@
 <text x="1022" y="348" text-anchor="end" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#C49A24">ARTHUR C. CLARKE</text>
 
 <line x1="48" y1="387" x2="1052" y2="387" stroke="#E6E6E6"/>
-<text x="48" y="407" font-family="Arial,sans-serif" font-size="11" fill="#999999">ZIG · DEBIAN · OPEN SOURCE</text>
-<text x="1052" y="407" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#999999">2026</text>
 </svg>
