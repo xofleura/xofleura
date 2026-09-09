@@ -2,7 +2,7 @@
 <rect width="1100" height="420" rx="28" fill="#FFFFFF"/>
 <rect x="48" y="42" width="4" height="54" rx="2" fill="#C49A24"/>
 
-<text x="72" y="72" font-family="Georgia,serif" font-size="48" font-weight="700" fill="#171717">xofleura</text> <text x="72" y="98" font-family="Arial,sans-serif" font-size="16" fill="#777777">software · systems · curiosity</text>
+<text x="72" y="72" font-family="Georgia,serif" font-size="48" font-weight="700" fill="#171717">xofleura</text> <text x="72" y="98" font-family="Arial,sans-serif" font-size="16" fill="#777777"></text>
 
 <text x="1052" y="61" text-anchor="end" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#9A9A9A">GITHUB PROFILE</text> <text x="1052" y="84" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#999999">github.com/xofleura</text>
 
