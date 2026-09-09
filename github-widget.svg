@@ -1,159 +1,55 @@
-<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="yellow" x1="80" y1="40" x2="820" y2="280" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF700"/>
-      <stop offset="1" stop-color="#FFD000"/>
-    </linearGradient>
-
-```
-<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="14" result="blur"/>
-  <feMerge>
-    <feMergeNode in="blur"/>
-    <feMergeNode in="SourceGraphic"/>
-  </feMerge>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#B8860B"/>
+<stop offset=".5" stop-color="#D4AF37"/>
+<stop offset="1" stop-color="#F0D77A"/>
+</linearGradient>
+<filter id="soft">
+<feGaussianBlur stdDeviation="10"/>
 </filter>
-
 <style>
-  .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    fill: #FFFFFF;
-  }
-
-  .subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    fill: #BDBDBD;
-  }
-
-  .label {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    fill: #888888;
-  }
-
-  .value {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    fill: #FFFFFF;
-  }
-
-  .quote {
-    font-family: Georgia, serif;
-    font-size: 16px;
-    font-style: italic;
-    fill: #FFFFFF;
-  }
-
-  .small {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    fill: #777777;
-  }
+.title{font:700 48px Georgia,serif;fill:#171717}
+.sub{font:400 16px Arial,sans-serif;fill:#777}
+.label{font:700 10px Arial,sans-serif;letter-spacing:2px;fill:#9A9A9A}
+.value{font:600 22px Georgia,serif;fill:#202020}
+.quote{font:italic 21px Georgia,serif;fill:#333}
+.small{font:500 11px Arial,sans-serif;fill:#999}
 </style>
-```
+</defs>
 
-  </defs>
+<rect width="1100" height="420" rx="28" fill="#FFFFFF"/>
 
-  <!-- Background -->
+<circle cx="1010" cy="50" r="150" fill="#D4AF37" opacity=".07" filter="url(#soft)"/>
 
-  <rect width="900" height="320" rx="24" fill="#0B0B0B"/>
+<rect x="48" y="42" width="4" height="54" rx="2" fill="url(#gold)"/>
 
-  <!-- Yellow accent -->
+<text x="72" y="72" class="title">xofleura</text> <text x="72" y="96" class="sub">software • systems • curiosity</text>
 
-  <rect width="900" height="5" rx="2.5" fill="url(#yellow)"/>
+<text x="1052" y="61" text-anchor="end" class="label">GITHUB PROFILE</text> <text x="1052" y="84" text-anchor="end" class="small">github.com/xofleura</text>
 
-  <!-- Ambient glow -->
+<line x1="48" y1="125" x2="1052" y2="125" stroke="#E8E8E8"/>
+<line x1="48" y1="125" x2="245" y2="125" stroke="url(#gold)" stroke-width="2"/>
 
-  <circle cx="820" cy="55" r="110" fill="#FFF700" opacity="0.07"/>
-  <circle cx="820" cy="55" r="55" fill="#FFF700" opacity="0.05" filter="url(#glow)"/>
+<rect x="48" y="153" width="310" height="104" rx="18" fill="#FCFCFC" stroke="#E8E8E8"/>
+<text x="72" y="181" class="label">FAVOURITE LANGUAGE</text>
+<text x="72" y="222" class="value">Zig</text>
+<text x="328" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24">✦</text>
 
-  <!-- Header -->
+<rect x="395" y="153" width="310" height="104" rx="18" fill="#FCFCFC" stroke="#E8E8E8"/>
+<text x="419" y="181" class="label">LINUX DISTRO</text>
+<text x="419" y="222" class="value">Debian</text>
+<text x="675" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24">◆</text>
 
-<text x="42" y="57" class="title">xofleura</text>
+<rect x="742" y="153" width="310" height="104" rx="18" fill="#FCFCFC" stroke="#E8E8E8"/>
+<text x="766" y="181" class="label">STATUS</text>
+<text x="766" y="222" class="value">probably compiling</text>
+<circle cx="1021" cy="215" r="5" fill="#C49A24"/>
 
-  <circle cx="47" cy="86" r="5" fill="#FFF700"/>
-  <text x="61" y="91" class="subtitle">
-    building things • breaking things • learning things
-  </text>
+<rect x="48" y="283" width="1004" height="82" rx="18" fill="#FFFDF6" stroke="#E8D9A5"/>
 
-<text x="858" y="55" text-anchor="end"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="10"
-     font-weight="700"
-     letter-spacing="2"
-     fill="#FFF700">
-DEVELOPER // PROFILE </text>
+<text x="75" y="334" font-family="Georgia,serif" font-size="40" fill="#C49A24">“</text> <text x="112" y="325" class="quote">Any sufficiently advanced technology is indistinguishable from magic.</text> <text x="1022" y="348" text-anchor="end" class="label">ARTHUR C. CLARKE</text>
 
-  <!-- Divider -->
+<line x1="48" y1="387" x2="1052" y2="387" stroke="#E8E8E8"/>
 
-<line x1="42" y1="115" x2="858" y2="115"
-     stroke="#242424"/>
-
-  <!-- Info cards -->
-
-<rect x="42" y="137" width="245" height="82" rx="15"
-     fill="#121212" stroke="#242424"/>
-
-<text x="61" y="162" class="label">FAVOURITE LANGUAGE</text> <text x="61" y="194" class="value">Zig</text>
-
-<text x="262" y="194"
-     text-anchor="end"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="18"
-     font-weight="800"
-     fill="#FFF700">
-⚡ </text>
-
-<rect x="307" y="137" width="245" height="82" rx="15"
-     fill="#121212" stroke="#242424"/>
-
-<text x="326" y="162" class="label">LINUX DISTRO</text> <text x="326" y="194" class="value">Debian</text>
-
-<text x="527" y="194"
-     text-anchor="end"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="18"
-     font-weight="800"
-     fill="#FFF700">
-◆ </text>
-
-<rect x="572" y="137" width="286" height="82" rx="15"
-     fill="#121212" stroke="#242424"/>
-
-<text x="591" y="162" class="label">CURRENT STATUS</text> <text x="591" y="194" class="value">probably compiling...</text>
-
-  <circle cx="830" cy="189" r="5" fill="#FFF700"/>
-
-  <!-- Quote -->
-
-<rect x="42" y="239" width="816" height="54" rx="15"
-     fill="#111111" stroke="#242424"/>
-
-  <text x="64" y="272" class="quote">
-    “Any sufficiently advanced technology is indistinguishable from magic.”
-  </text>
-
-<text x="833" y="272"
-     text-anchor="end"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="10"
-     font-weight="700"
-     fill="#FFF700">
-— ARTHUR C. CLARKE </text>
-
-  <!-- Footer -->
-
-  <text x="42" y="310" class="small">
-    github.com/xofleura
-  </text>
-
-  <text x="858" y="310" text-anchor="end" class="small">
-    ZIG • DEBIAN • OPEN SOURCE
-  </text>
-</svg>
+<text x="48" y="407" class="small">ZIG · DEBIAN · OPEN SOURCE</text> <text x="1052" y="407" text-anchor="end" class="small">2026</text> </svg>
