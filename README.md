@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./github-widget.svg" width="900" alt="xofleura developer profile">
+  <img src="./github-widget.svg" width="100%" alt="xofleura profile widget">
 </p>
