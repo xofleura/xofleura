@@ -12,17 +12,14 @@
 <rect x="48" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
 <text x="72" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">FAVOURITE LANGUAGE</text>
 <text x="72" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">zig</text>
-<text x="328" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24"></text>
 
 <rect x="395" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
 <text x="419" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">LINUX DISTRO</text>
 <text x="419" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">debian</text>
-<text x="675" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24"></text>
 
 <rect x="742" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
 <text x="766" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">STATUS</text>
 <text x="766" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">writing in zig prolly</text>
-<circle cx="1021" cy="215" r="5" fill="#C49A24"/>
 
 <rect x="48" y="283" width="1004" height="82" rx="18" fill="#FFFDF5" stroke="#E4D49A"/>
 <text x="75" y="334" font-family="Georgia,serif" font-size="40" fill="#C49A24">“</text>
