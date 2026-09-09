@@ -1,55 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
-<defs>
-<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#B8860B"/>
-<stop offset=".5" stop-color="#D4AF37"/>
-<stop offset="1" stop-color="#F0D77A"/>
-</linearGradient>
-<filter id="soft">
-<feGaussianBlur stdDeviation="10"/>
-</filter>
-<style>
-.title{font:700 48px Georgia,serif;fill:#171717}
-.sub{font:400 16px Arial,sans-serif;fill:#777}
-.label{font:700 10px Arial,sans-serif;letter-spacing:2px;fill:#9A9A9A}
-.value{font:600 22px Georgia,serif;fill:#202020}
-.quote{font:italic 21px Georgia,serif;fill:#333}
-.small{font:500 11px Arial,sans-serif;fill:#999}
-</style>
-</defs>
-
 <rect width="1100" height="420" rx="28" fill="#FFFFFF"/>
+<rect x="48" y="42" width="4" height="54" rx="2" fill="#C49A24"/>
 
-<circle cx="1010" cy="50" r="150" fill="#D4AF37" opacity=".07" filter="url(#soft)"/>
+<text x="72" y="72" font-family="Georgia,serif" font-size="48" font-weight="700" fill="#171717">xofleura</text> <text x="72" y="98" font-family="Arial,sans-serif" font-size="16" fill="#777777">software · systems · curiosity</text>
 
-<rect x="48" y="42" width="4" height="54" rx="2" fill="url(#gold)"/>
+<text x="1052" y="61" text-anchor="end" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#9A9A9A">GITHUB PROFILE</text> <text x="1052" y="84" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#999999">github.com/xofleura</text>
 
-<text x="72" y="72" class="title">xofleura</text> <text x="72" y="96" class="sub">software • systems • curiosity</text>
+<line x1="48" y1="125" x2="1052" y2="125" stroke="#E6E6E6"/>
+<line x1="48" y1="125" x2="245" y2="125" stroke="#C49A24" stroke-width="2"/>
 
-<text x="1052" y="61" text-anchor="end" class="label">GITHUB PROFILE</text> <text x="1052" y="84" text-anchor="end" class="small">github.com/xofleura</text>
-
-<line x1="48" y1="125" x2="1052" y2="125" stroke="#E8E8E8"/>
-<line x1="48" y1="125" x2="245" y2="125" stroke="url(#gold)" stroke-width="2"/>
-
-<rect x="48" y="153" width="310" height="104" rx="18" fill="#FCFCFC" stroke="#E8E8E8"/>
-<text x="72" y="181" class="label">FAVOURITE LANGUAGE</text>
-<text x="72" y="222" class="value">Zig</text>
+<rect x="48" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
+<text x="72" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">FAVOURITE LANGUAGE</text>
+<text x="72" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">Zig</text>
 <text x="328" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24">✦</text>
 
-<rect x="395" y="153" width="310" height="104" rx="18" fill="#FCFCFC" stroke="#E8E8E8"/>
-<text x="419" y="181" class="label">LINUX DISTRO</text>
-<text x="419" y="222" class="value">Debian</text>
+<rect x="395" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
+<text x="419" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">LINUX DISTRO</text>
+<text x="419" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">Debian</text>
 <text x="675" y="221" text-anchor="end" font-family="Georgia,serif" font-size="24" fill="#C49A24">◆</text>
 
-<rect x="742" y="153" width="310" height="104" rx="18" fill="#FCFCFC" stroke="#E8E8E8"/>
-<text x="766" y="181" class="label">STATUS</text>
-<text x="766" y="222" class="value">probably compiling</text>
+<rect x="742" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
+<text x="766" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">STATUS</text>
+<text x="766" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">probably compiling</text>
 <circle cx="1021" cy="215" r="5" fill="#C49A24"/>
 
-<rect x="48" y="283" width="1004" height="82" rx="18" fill="#FFFDF6" stroke="#E8D9A5"/>
+<rect x="48" y="283" width="1004" height="82" rx="18" fill="#FFFDF5" stroke="#E4D49A"/>
+<text x="75" y="334" font-family="Georgia,serif" font-size="40" fill="#C49A24">“</text>
+<text x="112" y="325" font-family="Georgia,serif" font-size="20" font-style="italic" fill="#333333">Any sufficiently advanced technology is indistinguishable from magic.</text>
+<text x="1022" y="348" text-anchor="end" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#C49A24">ARTHUR C. CLARKE</text>
 
-<text x="75" y="334" font-family="Georgia,serif" font-size="40" fill="#C49A24">“</text> <text x="112" y="325" class="quote">Any sufficiently advanced technology is indistinguishable from magic.</text> <text x="1022" y="348" text-anchor="end" class="label">ARTHUR C. CLARKE</text>
-
-<line x1="48" y1="387" x2="1052" y2="387" stroke="#E8E8E8"/>
-
-<text x="48" y="407" class="small">ZIG · DEBIAN · OPEN SOURCE</text> <text x="1052" y="407" text-anchor="end" class="small">2026</text> </svg>
+<line x1="48" y1="387" x2="1052" y2="387" stroke="#E6E6E6"/>
+<text x="48" y="407" font-family="Arial,sans-serif" font-size="11" fill="#999999">ZIG · DEBIAN · OPEN SOURCE</text>
+<text x="1052" y="407" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#999999">2026</text>
+</svg>
