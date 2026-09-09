@@ -21,7 +21,7 @@
 
 <rect x="742" y="153" width="310" height="104" rx="18" fill="#FAFAFA" stroke="#E4E4E4"/>
 <text x="766" y="181" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#999999">STATUS</text>
-<text x="766" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">probably compiling</text>
+<text x="766" y="222" font-family="Georgia,serif" font-size="22" font-weight="600" fill="#202020">writing in zig prolly</text>
 <circle cx="1021" cy="215" r="5" fill="#C49A24"/>
 
 <rect x="48" y="283" width="1004" height="82" rx="18" fill="#FFFDF5" stroke="#E4D49A"/>
