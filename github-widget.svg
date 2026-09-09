@@ -1,0 +1,159 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow" x1="80" y1="40" x2="820" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF700"/>
+      <stop offset="1" stop-color="#FFD000"/>
+    </linearGradient>
+
+```
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="14" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+<style>
+  .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    fill: #FFFFFF;
+  }
+
+  .subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    fill: #BDBDBD;
+  }
+
+  .label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    fill: #888888;
+  }
+
+  .value {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    fill: #FFFFFF;
+  }
+
+  .quote {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-style: italic;
+    fill: #FFFFFF;
+  }
+
+  .small {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    fill: #777777;
+  }
+</style>
+```
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="900" height="320" rx="24" fill="#0B0B0B"/>
+
+  <!-- Yellow accent -->
+
+  <rect width="900" height="5" rx="2.5" fill="url(#yellow)"/>
+
+  <!-- Ambient glow -->
+
+  <circle cx="820" cy="55" r="110" fill="#FFF700" opacity="0.07"/>
+  <circle cx="820" cy="55" r="55" fill="#FFF700" opacity="0.05" filter="url(#glow)"/>
+
+  <!-- Header -->
+
+<text x="42" y="57" class="title">xofleura</text>
+
+  <circle cx="47" cy="86" r="5" fill="#FFF700"/>
+  <text x="61" y="91" class="subtitle">
+    building things • breaking things • learning things
+  </text>
+
+<text x="858" y="55" text-anchor="end"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="10"
+     font-weight="700"
+     letter-spacing="2"
+     fill="#FFF700">
+DEVELOPER // PROFILE </text>
+
+  <!-- Divider -->
+
+<line x1="42" y1="115" x2="858" y2="115"
+     stroke="#242424"/>
+
+  <!-- Info cards -->
+
+<rect x="42" y="137" width="245" height="82" rx="15"
+     fill="#121212" stroke="#242424"/>
+
+<text x="61" y="162" class="label">FAVOURITE LANGUAGE</text> <text x="61" y="194" class="value">Zig</text>
+
+<text x="262" y="194"
+     text-anchor="end"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="18"
+     font-weight="800"
+     fill="#FFF700">
+⚡ </text>
+
+<rect x="307" y="137" width="245" height="82" rx="15"
+     fill="#121212" stroke="#242424"/>
+
+<text x="326" y="162" class="label">LINUX DISTRO</text> <text x="326" y="194" class="value">Debian</text>
+
+<text x="527" y="194"
+     text-anchor="end"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="18"
+     font-weight="800"
+     fill="#FFF700">
+◆ </text>
+
+<rect x="572" y="137" width="286" height="82" rx="15"
+     fill="#121212" stroke="#242424"/>
+
+<text x="591" y="162" class="label">CURRENT STATUS</text> <text x="591" y="194" class="value">probably compiling...</text>
+
+  <circle cx="830" cy="189" r="5" fill="#FFF700"/>
+
+  <!-- Quote -->
+
+<rect x="42" y="239" width="816" height="54" rx="15"
+     fill="#111111" stroke="#242424"/>
+
+  <text x="64" y="272" class="quote">
+    “Any sufficiently advanced technology is indistinguishable from magic.”
+  </text>
+
+<text x="833" y="272"
+     text-anchor="end"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="10"
+     font-weight="700"
+     fill="#FFF700">
+— ARTHUR C. CLARKE </text>
+
+  <!-- Footer -->
+
+  <text x="42" y="310" class="small">
+    github.com/xofleura
+  </text>
+
+  <text x="858" y="310" text-anchor="end" class="small">
+    ZIG • DEBIAN • OPEN SOURCE
+  </text>
+</svg>
